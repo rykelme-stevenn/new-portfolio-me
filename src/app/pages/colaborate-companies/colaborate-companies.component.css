@@ -1,0 +1,54 @@
+#body-companies{
+    text-align: center;
+    height: 30%;
+    align-content: center;
+}
+
+#card-container-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-company {
+    text-align: center;
+    /* padding: 32px;
+    margin-right: 28px; */
+    width: 20%;
+    height: 90%;
+    border-radius: 8px;
+    
+}
+
+#company-image{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+#company-image{
+    transition: all .5s;
+    border: 10px solid #59d69a28;
+}
+#company-image:hover{
+    border: 10px solid #59D69A;
+    border-radius: 50%;
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+    margin-right: 25px;
+}
+
+#container-company{
+    border-radius: 12px;
+    padding: 1.5rem;
+    /* border: 0.2px #59d69a86 solid; */
+    margin-left: 20%;
+    width: 60%;
+}
+
+#container-company:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    transition: 1.2s;
+
+}
