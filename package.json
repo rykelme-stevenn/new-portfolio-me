@@ -1,6 +1,11 @@
 {
   "name": "new-portfolio-app",
   "version": "0.0.0",
+
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.5.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
