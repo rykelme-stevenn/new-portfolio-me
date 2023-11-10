@@ -2,24 +2,28 @@
     <img id="image-footer" src="../../../assets/images/logo_pretty.png" alt="">
     <h1 id="slogan">Sempre em busca de desafios</h1>
     <div id="icons" style="display: flex; justify-content: center;">
-        <button class="button">
-            <a class="link" style="text-decoration: none;" href="https://github.com/rykelme-stevenn" target="_blank">
+        <a class="link" style="text-decoration: none;" href="https://www.linkedin.com/in/rykelme-prado/"
+            target="_blank">
+            <button class="button">
                 <fa-icon class="iconbrand fa-2x" [icon]="faLinkedin"></fa-icon>
-            </a>
-        </button>
-        <button class="button">
-            <fa-icon class="iconbrand fa-2x " [icon]="faGithub"></fa-icon>
-        </button>
-        <button class="button">
+            </button>
+        </a>
+        <a class="link" style="text-decoration: none;" href="https://github.com/rykelme-stevenn" target="_blank">
+            <button class="button">
+                <fa-icon class="iconbrand fa-2x " [icon]="faGithub"></fa-icon>
+            </button>
+        </a>
+        <button class="button" (click)="openEmail()">
             <fa-icon class="iconbrand fa-2x" [icon]="faMail"></fa-icon>
         </button>
     </div>
     <div style="display: flex; justify-content: center; text-align: center; margin-top: 2vh;">
         <p id="angular-text">Made with </p>
-        <fa-icon id="angular-icon" class="fa-2x" [icon]="faAngular" style="display: grid; align-items: center;"></fa-icon>
+        <fa-icon id="angular-icon" class="fa-2x" [icon]="faAngular"
+            style="display: grid; align-items: center;"></fa-icon>
     </div>
 </div>
-<footer  id="ending">
+<footer id="ending">
     <div id="content-ending">
         <h3 id="made">Feito por mim © 2023</h3>
         <p id="year">Marília - SP</p>

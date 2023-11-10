@@ -16,6 +16,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { EmailService } from './services/email-provide.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatIconModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [EmailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { 

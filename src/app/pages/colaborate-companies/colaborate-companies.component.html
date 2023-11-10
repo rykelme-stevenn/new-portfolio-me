@@ -1,12 +1,17 @@
 <div id="body-companies">
-    <div id="container-company">
-        <h1 style="color:#141c3a;margin-bottom: 6%;">Eu sou muito grato por ter colaborados nessas incríveis empresas:</h1>
-        <div style="width: 100%; text-align: center; margin-top: 32px !important;">
-            <div id="card-container-company">
-                <div *ngFor="let company of companies" id="card-company">
-                    <div style="display: flex;">
-                        <img id="company-image" [src]="company.source" alt="">
-                        <p style="font-weight: 500; font-size: 1.2rem;">{{company.name}}</p>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-6">
+            <div id="container-company">
+                <h1 style="color:#141c3a;margin-bottom: 6%;">Eu sou muito grato por ter colaborados nessas incríveis empresas:</h1>
+                <div style="width: 100%; text-align: center; margin-top: 32px !important;">
+                    <div id="card-container-company">
+                        <div *ngFor="let company of companies" id="card-company">
+                            <div style="display: flex;">
+                                <img id="company-image" [src]="company.source" alt="">
+                                <p style="font-weight: 500; font-size: 1.2rem;">{{company.name}}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

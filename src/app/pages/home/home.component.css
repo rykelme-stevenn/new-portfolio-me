@@ -51,7 +51,15 @@
 .icons{
     width: 36px; 
     height: 36px;
-    margin-left: 24px;
+    margin-left: 20px;
+}
+
+.iconbrand{
+    color: #141c3a;;
+}
+
+.iconbrand:hover{
+    color: #59D69A;
 }
 
 .icons:hover{
