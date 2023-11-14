@@ -1,11 +1,21 @@
 #body-who{
     /* background-color: #59D69A; */
-    height: 150vh;
+    height: 2100px;
     text-align: center;
     padding-top: 5%;
-    width: 200%;
+    width: 100%;
     margin-bottom: 10%;
 }
+
+@media screen and (min-width: 1100px) {
+    #body-who {
+        height: 140vh;
+        text-align: center;
+        padding-top: 5%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+  }
 
 #describe-who{
     font-weight: 400 !important;
@@ -28,6 +38,12 @@
 }
 
 #content-text{
-    height: 60vh;
+    height: 1000px;
     background-color: #59D69A;
 }
+
+@media screen and (min-width: 1113px) {
+    #content-text {
+        height: 60vh;
+    }
+  }

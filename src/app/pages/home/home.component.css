@@ -34,16 +34,24 @@
 }
 
 #gif{
-    width: 35%;
+    width: 400px;
     height: auto;
 }
+
+@media screen and (min-width: 1113px) {
+    #gif {
+      width: 800px;
+    }
+  }
 
 #actions{
     text-align: right;
     width: 100%;
 }
 
+
 #total-body{
+    margin-top: 20px;
     width: 100vw;
     height: 100vh;
 }

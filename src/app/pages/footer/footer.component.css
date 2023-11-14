@@ -1,9 +1,19 @@
 #footer {
     margin-top: 10px;
-    height: 35vh;
+    height: 350px;
     background-color: #59D69A;
     text-align: center;
     padding: 26px;
+}
+
+@media screen and (min-width: 1113px) {
+    #footer {
+        margin-top: 10px;
+        height: 35vh;
+        background-color: #59D69A;
+        text-align: center;
+        padding: 26px;
+    }
 }
 
 #image-footer {
